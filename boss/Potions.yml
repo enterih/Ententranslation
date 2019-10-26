@@ -18,9 +18,11 @@
 # 
 # ------------------------------------------------------------------------
 
-Effects: []
+Effects:
+    - SLOWNESS 2, 10 seconds
+    - BLINDNESS, 4 seconds
 Delay: 30 seconds - 1 minute
 Message:
-- Watch out! The {boss} has &cgiven you a special potion effect&7!
-- The {boss} has &cpoisoned you&7!
-- You are now given special potion effects!
+- Pass auf! Der {boss} hat dich mit einen speziellen Trank abgeworfen&7!
+- Der {boss} hat dich &cvergiftet&7!
+- Du hast einen speziellen Trankeffekt erhalten!
