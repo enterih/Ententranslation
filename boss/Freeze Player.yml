@@ -16,6 +16,6 @@ Cobweb: true
 Duration: 3 seconds
 Delay: 20 seconds - 40 seconds
 Message:
-- Der Boss hat dich in einen Meditativen zustand versetzt. Also beweg dich nicht.
-- Du sitzt nun fest! Der {boss} kommt zu dir!
+- Der Boss hat dich in einen meditativen Zustand versetzt. Beweg dich bitte nicht.
+- Du sitzt nun fest! WUUSH! Der {boss} kommt zu dir!
 - Du spielst zu schnell! Bitte komm runter!
