@@ -146,7 +146,7 @@ info:
   cantRename: '!actionbar!&eYou can''t use this name'
   wrongName: '&cWrong name'
   invalidName: '&cInvalid name'
-  alreadyexist: '&4This name is taken'
+  alreadyexist: '&4Dieser Name ist vergeben'
   dontexist: '&4Nothing found by this name'
   worldDontExist: '&cTarget world can''t be accessed anymore. Can''t teleport you
     there!'
