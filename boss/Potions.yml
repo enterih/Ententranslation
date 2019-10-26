@@ -18,9 +18,11 @@
 # 
 # ------------------------------------------------------------------------
 
-Effects: []
+Effects:
+    - SLOWNESS 2, 10 seconds
+    - BLINDNESS, 4 seconds
 Delay: 30 seconds - 1 minute
 Message:
-- Pass auf! Der {boss} hat dich mit einen spziellen Trank abgeworfen&7!
-- Der {boss} hat dich &cvergiftez&7!
+- Pass auf! Der {boss} hat dich mit einen speziellen Trank abgeworfen&7!
+- Der {boss} hat dich &cvergiftet&7!
 - Du hast einen speziellen Trankeffekt erhalten!
