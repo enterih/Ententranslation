@@ -1,0 +1,26 @@
+# ------------------------------------------------------------------------
+#  This is the configuration for the skill 'Potions'
+# ------------------------------------------------------------------------
+# 
+# Documentation:
+#   Delay - The duration of the pause between the skill is run again.
+#           You can specify a range that will be choosen randomly.
+#   Message - The message to send to the player when the skill is run.
+#             If you have multiple lines, one is choosen randomly.
+#  
+# For potion effects, use the following syntax
+# <potion name> <level>, <duration>
+# 
+# Example:
+#  Effects:
+#    - SLOWNESS 2, 10 seconds
+#    - BLINDNESS, 4 seconds
+# 
+# ------------------------------------------------------------------------
+
+Effects: []
+Delay: 30 seconds - 1 minute
+Message:
+- Watch out! The {boss} has &cgiven you a special potion effect&7!
+- The {boss} has &cpoisoned you&7!
+- You are now given special potion effects!
