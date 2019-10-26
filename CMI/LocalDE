@@ -689,8 +689,8 @@ Information:
   Hunger: '&eHunger: &6[Hunger]'
   Saturation: '&eSaturation: &6[Saturation]'
   Exp: '&eExp: &6[Exp]'
-  NotEnoughExp: '&eNot enough exp: &6[Exp]'
-  NotEnoughExpNeed: '&eNot enough exp: &6[Exp]/[need]'
+  NotEnoughExp: '&eNicht genug EP: &6[Exp]'
+  NotEnoughExpNeed: '&eNicht genug EP: &6[Exp]/[need]'
   tooMuchExp: '&eToo much exp: &6[Exp]/[need]'
   NotEnoughVotes: '&eNot enough votes: &6[votes]'
   TooMuchVotes: '&eToo many votes: &6[votes]'
@@ -698,20 +698,20 @@ Information:
   BadArea: '&cYou can''t perform this action in this area'
   GameMode: '&eGameMode: &6[GameMode]'
   GodMode: '&eGodMode: &6[GodMode]'
-  Flying: '&eFlying: &6[Flying]'
-  CanFly: '&eCan Fly: &6[CanFly]'
+  Flying: '&eFliegen: &6[Flying]'
+  CanFly: '&eKann fliegen: &6[CanFly]'
   Uuid: '&6[uuid]'
   ip: '&eIp address: &6[address]'
-  FirstConnection: '&eFirst connection: &6[time]'
-  Lastseen: '&eLast seen: &6[time]'
-  Onlinesince: '&eOnline since: &6[time]'
-  Money: '&eBalance: &6[money]'
-  Group: '&eGroup: &6[group]'
+  FirstConnection: '&eErstes mal Verbinden: &6[time]'
+  Lastseen: '&eZuletzt gesehen: &6[time]'
+  Onlinesince: '&eOnline seit: &6[time]'
+  Money: '&eGuthaben: &6[money]'
+  Group: '&eGruppe: &6[group]'
 econ:
-  disabled: '&cCan''t use this command while economy support is disabled'
-  noMoney: '&cYou have no money'
-  notEnoughMoney: '&cYou dont have enough money. Required (&6[amount]&c)'
-  tooMuchMoney: '&cYou have too much money'
+  disabled: '&cDas Geldsystem ist nicht aktiviert.'
+  noMoney: '&cDu bist pleite.'
+  notEnoughMoney: '&cDein Guthaben reicht dafür nicht. Benötigt (&6[amount]&c)'
+  tooMuchMoney: '&cDu hast zu viel Geld'
 Elytra:
   Speed: '&eSpeed: &6[speed]&ekm/h'
   SpeedBoost: ' &a+ '
@@ -1659,7 +1659,7 @@ command:
       info: '&eSet players game mode'
       args: (playerName) [gamemode]
     info:
-      feedback: '&eYou have set &3[playerDisplayName]&e (&3[offon]&e) to gamemode
+      feedback: '&eDu hast &3[playerDisplayName]´s &e (&3[offon]&e) Spielmodus geändert zu
         &3[gameMode]&e.'
       targetfeedback: '&eYour game mode was set to &3[gameMode]&e by &3[senderDisplayName]&e.'
   god:
@@ -2185,8 +2185,8 @@ command:
       limitedTimeUseError: '&eCan''t use more than &6[times] &etimes'
       limitedTimeUse: '&7Can use for &c[times] &7times'
       limitedTimeAllUsed: '&cYou can''t get another one'
-      canUseIn: "&eCan use again in: \n[time]"
-      cooldown: "&eCooldown: \n[time]"
+      CanUse: '&cOhne die Berechtigung kannst du keine Elytra ausrüsten!'
+      Charging: '&eAufladen... &f[percentage]&e%'
       noKit: '&eCan''t find kit by this name'
       noKitAccess: '&cYou don''t have access to this kit'
       noFoundKit: '&eCan''t find any kits'
