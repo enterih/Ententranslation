@@ -1,0 +1,31 @@
+Messages:
+  # Please note that all messages start with the PluginSettings.MessagePrefix except the HelpMessage.
+  1LBReceived: 'You received a luckyblock.'
+  AmountNotSpecified: 'You need to specify the amount of luckyblocks.'
+  ConfigReloaded: 'The config has been reloaded!'
+  DisabledWorldBreak: "You are not allowed to break luckyblocks in this world."
+  DisabledWorldPlace: "You are not allowed to place luckyblocks in this world."
+  GiveallBroadcast: '%sender% gave everyone in the server %amount% luckyblocks!'
+  MultipleLBReceived: 'You received %amount% luckyblocks.'
+  NoInteger: 'The amount must be a number.'
+  NoPermission: "You don't have permission to use this command."
+  PlayerGave1LB: '%sender% gave you a luckyblock.'
+  PlayerNotFound: 'Player %target% not found. Make sure this player is online!'
+  PlayerNotSpecified: 'You need to specify the player you want to give the luckyblock.'
+  TooManyArguments: 'Too many arguments! Usage: /slb give <amount> [player]'
+  WrongUsage: 'Wrong command usage! Use /slb help for help.'
+  HelpMessage:
+  - "&cBecause you didn't specify a command this help page is shown."
+  - '&e&lSuperLuckyBlock Commands'
+  - '&e<> = required [] = optional'
+  - '&f/slb help - Shows this help page.'
+  - '&f/slb give <amount> [player] - Gives you or a player a luckyblock.'
+  - '&f/slb giveall <amount> - Give all players in the server the amount of luckyblocks.'
+  - '&f/slb givecustom <player> <luckyblock name> <amount> - Give a player a custom luckyblock. Luckyblock name must be the same as the file, without .yml.'
+SurpriseMessages:
+  # You can add messages for any surprise you want, these are just examples.
+  # Please be sure to enter the exact name of the surprise.
+  # You can find the names in default.yml.
+  LavaHole: "You feel the floor disappearing..."
+  RandomBlocks: "Enjoy some random blocks :)."
+  TamedWolf: "WOOF!"
