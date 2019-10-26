@@ -21,6 +21,6 @@
 Effects: []
 Delay: 30 seconds - 1 minute
 Message:
-- Watch out! The {boss} has &cgiven you a special potion effect&7!
-- The {boss} has &cpoisoned you&7!
-- You are now given special potion effects!
+- Pass auf! Der {boss} hat dich mit einen spziellen Trank abgeworfen&7!
+- Der {boss} hat dich &cvergiftez&7!
+- Du hast einen speziellen Trankeffekt erhalten!
