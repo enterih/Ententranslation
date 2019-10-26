@@ -1,3 +1,4 @@
+
 # ------------------------------------------------------------------------
 #  This is the configuration for the skill 'Bomb'
 # ------------------------------------------------------------------------
@@ -20,6 +21,6 @@ Destroy_Blocks: false
 Power: 4.0
 Delay: 30 seconds - 1 minute
 Message:
-- You have been &cbombed &7by the boss!
-- The {boss} has &cspawned a TnT &7at you!
-- Please do not move, there's a gift for ya!
+- Du wurdest &7vom Boss &cbombadiert!
+- Der {boss} hat ein &cTnT nach dir &7geworfen!
+- Bitte nicht bewegen, da ist ein Geschenk für dich!
