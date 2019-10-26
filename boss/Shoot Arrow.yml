@@ -21,6 +21,6 @@
 Effects: []
 Delay: 2 seconds - 5 seconds
 Message:
-- Watch out! The {boss} has &cshoot an arrow &7at ya!
-- The {boss} has &claunched a projectile &7at you!
-- You are now under attack!
+- Pass auf! Der {boss} hat dich &csmit einem Pfeil abgeschossen!
+- Der {boss} hat &cein Projektil &7auf dich geschoßen!
+- Du wirst jetzt angegriffen!
