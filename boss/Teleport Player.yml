@@ -17,6 +17,6 @@ Radius: 5
 Max_Players_At_Once: 2
 Delay: 45 seconds - 2 minutes
 Message:
-- You are now facing the {boss} himself!
-- Welcome! {boss} has &cteleported you &7closer!
-- Don't run away from me! Fight like a man!
+- Du stehst nun vor dem {boss}!
+- Willkommen! Der {boss} hat &cdich näher zu ihn &7teleportiert!
+- Renn nicht vor mir weg! Kämpfe wie ein Mann!
