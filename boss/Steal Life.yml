@@ -16,6 +16,6 @@
 Percent: 20
 Delay: 2 minute - 4 minutes
 Message:
-- You have been &cstolen &7your health to the Boss!
-- Your lives have been &cdecreased&7 by the {boss}!
-- The {boss} has &cdrained &7your health!
+- Dir wurde deine Gesundheit gestohlen, &7um den {boss} damit zu heilen!
+- Deine Leben wurden&7 vom {boss} &cveringert!
+- Der {boss} hat dir deine &7Lebenskraft &centzogen !
