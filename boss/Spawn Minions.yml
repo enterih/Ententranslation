@@ -14,6 +14,6 @@ Radius: 5
 Amount: 1
 Delay: 30 seconds - 1 minute
 Message:
-- Watch out for {boss}'s new friends - Minions!
-- '{boss} has spawned reinforcements!'
-- Say hello to your new friends, {player}!
+- Pass auf {boss}'s neune Freund auf - Diener!
+- '{boss} hat Verstärkung erhalten!'
+-  {player}, sag Hallo zu deinen neuen Freund!
