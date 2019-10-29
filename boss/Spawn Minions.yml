@@ -14,6 +14,6 @@ Radius: 5
 Amount: 1
 Delay: 30 seconds - 1 minute
 Message:
-- Pass auf {boss}'s neune Freund auf - Diener!
+- Gebiete Vorsicht! {boss}'s neue Freunde sind hier - Diener!
 - '{boss} hat Verstärkung erhalten!'
--  {player}, sag Hallo zu deinen neuen Freund!
+-  {player}, sag Hallo zu deinen neuen Freunden!
