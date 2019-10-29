@@ -1,31 +1,31 @@
 Messages:
   # Please note that all messages start with the PluginSettings.MessagePrefix except the HelpMessage.
   1LBReceived: 'Du hast einen Luckyblock erhalten.'
-  AmountNotSpecified: 'Du musst eine Anzahl an Luckyblocks angeben'
+  AmountNotSpecified: 'Du musst eine Anzahl an Luckyblöcke angeben'
   ConfigReloaded: 'Die Config wurde neugeladen!'
-  DisabledWorldBreak: "In dieser Welt dürfen keine Luckyblocks geöfnet werden!."
-  DisabledWorldPlace: "In dieser Welt dürfen keine Luckyblocks platziert werden!."
-  GiveallBroadcast: '%sender% hat allen auf dem Server %amount% luckyblocks gegeben!'
-  MultipleLBReceived: 'You received %amount% luckyblocks.'
-  NoInteger: 'Die Anzahl muss einen Nummer sein.'
-  NoPermission: "Du hast nicht genügend Berechtigungen für diesen Befehl."
+  DisabledWorldBreak: "In dieser Welt dürfen keine Luckyblöcke geöffnet werden!."
+  DisabledWorldPlace: "In dieser Welt dürfen keine Luckyblöcke platziert werden!."
+  GiveallBroadcast: '%sender% hat allen auf dem Server %amount% Luckyblocks gegeben!'
+  MultipleLBReceived: 'Du hast %amount% Luckyblöcke erhalten.'
+  NoInteger: 'Die Anzahl muss eine Nummer sein.'
+  NoPermission: "Du hast nicht genügend Berechtigung für diesen Befehl."
   PlayerGave1LB: '%sender% gibt dir einen Luckyblock.'
-  PlayerNotFound: 'Der Spieler %target% wurde nicht gefunden. Geh sicher das der Spieler online ist!'
-  PlayerNotSpecified: 'Du must einen Spieler auswählen den du einen Luckyblock geben willst.'
-  TooManyArguments: 'Zu viele Argumente! Benutzung: /slb give <amount> [player]'
+  PlayerNotFound: 'Der Spieler %target% wurde nicht gefunden. Geh sicher, dass der Spieler online ist!'
+  PlayerNotSpecified: 'Du musst einen Spieler auswählen, den du einen Luckyblock geben willst.'
+  TooManyArguments: 'Zu viele Argumente! Benutze: /slb give <amount> [player]'
   WrongUsage: 'Falscher Befehl! Benutze /slb help Für Hilfe.'
   HelpMessage:
-  - "&cWeil du keinen befehl ausgewählt hast wird diese Hilfe angezeigt."
+  - "&cWeil du keinen Befehl ausgewählt hast, wird diese Hilfe angezeigt."
   - '&e&lSuperLuckyBlock Befehle'
-  - '&e<> = required [] = optional'
+  - '&e<> = zwingend [] = optional'
   - '&f/slb help - Zeigt diese Hilfe.'
   - '&f/slb give <amount> [player] - Gibt dir oder einen Spieler einen Luckyblock.'
-  - '&f/slb giveall <amount> - Gibt allen Spieler auf den Server die bestimte Anzahl an luckyblocks.'
-  - '&f/slb givecustom <player> <luckyblock name> <amount> - Gibt den Spieler dem selbsterstellten Lucky block.
+  - '&f/slb giveall <amount> - Gibt allen Spielern auf dem Server die bestimmte Anzahl an Luckyblöcke.'
+  - '&f/slb givecustom <player> <luckyblock name> <amount> - Gibt den Spieler dem selbsterstellten Luckyblock.
 SurpriseMessages:
   # You can add messages for any surprise you want, these are just examples.
   # Please be sure to enter the exact name of the surprise.
   # You can find the names in default.yml.
-  LavaHole: "Du merkst wie der Boden verschwindet..."
-  RandomBlocks: "Geniße die Kunterbunte auswahl an Blöcken :)."
-  TamedWolf: "WOOF!"
+  LavaHole: "Du merkst, wie der Boden verschwindet..."
+  RandomBlocks: "Genieße die kunterbunte Auswahl an Blöcken :)."
+  TamedWolf: "WUFF!"
