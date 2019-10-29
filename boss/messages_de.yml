@@ -1,34 +1,34 @@
 Commands:
-  No_Console: '&cYou may only use this command as a player'
-  Biome: '&7Biome at x: {x} z: {z} is &6{biome}.'
-  Reload_Success: '{plugin_name} {plugin_version} has been reloaded.'
-  Reload_Fail: '&4Oups, &creloading failed! See the console for more information.
+  No_Console: '&cDer Befehl kann nur als Spieler ausgeführt werden! Nicht in der Konsole!'
+  Biome: '&7Umgebung bei x: {x} z: {z} ist &6{biome}.'
+  Reload_Success: '{plugin_name} {plugin_version} wurde neugeladen.'
+  Reload_Fail: '&4Oups, &cDas Neuladen ist fehlgeschlagen! Schau in die Console für mehr Informationen.
     Error: {error}'
-  Invalid_Argument: '&cInvalid parameter. Run &6/{label} ? &cfor help.'
-  Invalid_Sub_Argument: '&cInvalid parameter. Run ''/{label} {0}'' for help.'
-  Invalid_Argument_Multiline: '&cInvalid parameter. Usage:'
-  Label_Description: '&cDescription: {description}'
-  Label_Usage: '&cUsage:'
-  Label_Usages: '&cUsages:'
-  Error: '&4&lOups! &cThe command failed :( Check the console and report the error.'
+  Invalid_Argument: '&cUngültiger Parameter. Schreib &6/{label} ? &cfür Hilfe.'
+  Invalid_Sub_Argument: '&cUngültiger Parameter. Schreib ''/{label} {0}'' für Hilfe.'
+  Invalid_Argument_Multiline: '&cUngültiger Parameter. Verwende:'
+  Label_Description: '&cBeschreibung: {description}'
+  Label_Usage: '&cGebrauch:'
+  Label_Usages: '&cGebrauch:'
+  Error: '&4&lOups! &cDer Befehl ist fehlgeschlagen :( Schau in die Serverkonsole für weitere Informationen.'
 Player:
-  Not_Online: '&cPlayer {player} &cis not online on this server.'
+  Not_Online: '&cSpieler {player} &cist nicht Online.'
 Spawning:
-  Main_Hand: '&cYou can only spawn Bosses from your main hand.'
-  No_Permission: '&cYou lack permissions to use Boss eggs (boss.use.spawneregg).'
-  Not_Installed: '&cBoss ''{boss}'' is not installed on this server.'
-  Fail: '&cUnable to spawn {boss} in this location!'
-  Summoned_Location: Summoned {amount} at {location}
+  Main_Hand: '&cDu kannst Bosse nur mit deiner Hauthand spawnen.'
+  No_Permission: '&cDu hast nicht genügende Berechtigungen um Bossspawneier zu verwenden (boss.use.spawneregg).'
+  Not_Installed: '&cDer Boss ''{boss}'' existiert auf diesem Server nicht.'
+  Fail: '&c{boss} konnte an dieser Position nicht beschworen werden!'
+  Summoned_Location: Es wurden {amount} bei {location} beschworen.
 Tools:
-  Inspect_Open: '&6Opening the menu of the ''{boss}'' Boss...'
-  Inspect_Invalid: '&cThis entity is not a valid Boss.'
+  Inspect_Open: '&6Öffnet das menü des ''{boss}'
+  Inspect_Invalid: '&cDiese Kreatur ist kein verfügbarer Boss.'
 Invalid:
-  Boss: 'Boss ''{boss}'' does not exist. Available: {available}'
-  World: 'World {world}'' does not exist. Available: {available}'
-No_Permission: '&cInsufficient permission ({permission}).'
+  Boss: 'Der''{boss}'' existiert nicht. Verfügbare Bosse: {available}'
+  World: 'Die Welt {world}'' existiert nicht. Verfügbare Bosse: {available}'
+No_Permission: '&cUnzureichende Berechtigung ({permission}).'
 Version: 1
 Update:
   Available: |-
-    &2A new version of &3Boss&2 is available.
-    &2Current version: &f{current}&2; New version: &f{new}
+    &2Eine neue Version von &3Boss&2 ist verfügbar.
+    &2Aktuelle Version: &f{current}&2; Neue Version: &f{new}
     &2URL: &7https://www.spigotmc.org/resources/{resourceId}/.
