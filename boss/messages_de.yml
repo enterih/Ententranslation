@@ -29,6 +29,6 @@ No_Permission: '&cUnzureichende Berechtigung ({permission}).'
 Version: 1
 Update:
   Available: |-
-    &2Eine neue version von &3Boss&2 ist verfügbar.
+    &2Eine neue Version von &3Boss&2 ist verfügbar.
     &2Aktuelle Version: &f{current}&2; Neue Version: &f{new}
     &2URL: &7https://www.spigotmc.org/resources/{resourceId}/.
